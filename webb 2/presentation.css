@@ -1,0 +1,286 @@
+:root {
+  color-scheme: dark;
+  font-family: "Century Gothic", "Trebuchet MS", sans-serif;
+  --navy: #1d304a;
+  --green: #d3e2a2;
+  --white: #fff;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  margin: 0;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  background: #101c2b;
+}
+.stage {
+  position: relative;
+  width: min(100vw, 177.7778dvh);
+  aspect-ratio: 16 / 9;
+  container-type: inline-size;
+  overflow: hidden;
+}
+.slide {
+  position: absolute;
+  inset: 0;
+  background: var(--navy);
+  color: var(--white);
+}
+.slide.cover {
+  background: var(--green);
+  color: var(--navy);
+}
+.content {
+  position: absolute;
+  inset: 0 20% 25% 0;
+  padding: 4.6cqw 2.5cqw 1.3cqw 5cqw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5cqw;
+}
+.cover .content { justify-content: center; }
+.logo {
+  position: absolute;
+  top: 2.1cqw;
+  left: 2.6cqw;
+  width: 15cqw;
+  height: auto;
+}
+h1, h2, h3, p, figure, ul { margin: 0; }
+h1 { font-size: 5.3cqw; line-height: 1.08; }
+h2 { font-size: 4cqw; line-height: 1.12; }
+p, li { font-size: 2.1cqw; line-height: 1.4; }
+.subtitle { font-size: 2.6cqw; }
+ul { padding-inline-start: 2.6cqw; }
+li + li { margin-top: .7cqw; }
+.agenda {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: 1.15fr 1fr;
+  gap: .8cqw 3.5cqw;
+}
+.agenda li { margin: 0; }
+.lesson-example {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 2cqw;
+  align-items: start;
+}
+.lesson-outline li {
+  font-size: 1.7cqw;
+  line-height: 1.3;
+}
+.lesson-outline li + li { margin-top: .28cqw; }
+.lesson-example img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+li::marker { color: var(--green); }
+.cover li::marker { color: var(--navy); }
+.cards, .with-demo {
+  display: grid;
+  gap: 1.4cqw;
+  align-items: start;
+}
+.cards { grid-template-columns: repeat(auto-fit, minmax(17cqw, 1fr)); }
+.card, .demo {
+  padding: 1.25cqw 1.5cqw;
+  background: #ffffff0d;
+  border: 1px solid #ffffff36;
+  border-radius: .65cqw;
+}
+.card h3 { font-size: 1.95cqw; margin-bottom: .5cqw; color: var(--green); }
+.card p { font-size: 1.65cqw; }
+.course-book h2 {
+  font-size: 3.5cqw;
+  font-weight: 400;
+}
+.book-details {
+  display: flex;
+  align-items: center;
+  gap: 3cqw;
+}
+.book-details img {
+  display: block;
+  height: 27cqw;
+  width: auto;
+}
+.book-details p + p { margin-top: .5cqw; }
+.slide-image {
+  display: block;
+  width: 86%;
+  height: auto;
+  clip-path: inset(0 1px 1px 1px);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.slide-position {
+  position: absolute;
+  right: 1.6cqw;
+  bottom: .8cqw;
+  z-index: 2;
+  padding: .25em .55em;
+  border-radius: .3em;
+  background: var(--navy);
+  color: var(--white);
+  font-size: max(12px, 1.15cqw);
+  font-variant-numeric: tabular-nums;
+  border: 0;
+}
+.slide-picker {
+  position: absolute;
+  right: 1.6cqw;
+  bottom: calc(.8cqw + max(12px, 1.15cqw) * 1.8 + .3rem);
+  z-index: 3;
+  width: min(22rem, 94%);
+  max-height: 75%;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: .3rem;
+  border: 1px solid #ffffff55;
+  border-radius: .4rem;
+  background: var(--navy);
+}
+.slide-picker button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 0;
+}
+.slide-picker button:is(:hover, :focus-visible, [aria-current="true"]) {
+  background: var(--green);
+  color: var(--navy);
+}
+.with-demo { grid-template-columns: 1.35fr 1fr; }
+.assignment-image img, .practice-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.practice-points {
+  display: flex;
+  gap: 3.6cqw;
+}
+.practice-points li { margin: 0; }
+.assignment-image figcaption {
+  margin-top: .45cqw;
+  font-size: 1.1cqw;
+}
+.demo code { display: block; font-size: 1.24cqw; color: var(--green); }
+.browser-demo {
+  color: var(--navy);
+  background: var(--green);
+  border-radius: .3cqw;
+  padding: .65cqw;
+  margin-top: .85cqw;
+  font-size: 1.6cqw;
+}
+.camera-guide, .caption-guide {
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+}
+.camera-guide {
+  width: 15cqw;
+  aspect-ratio: 1;
+  top: 2.2cqw;
+  right: 2.8cqw;
+  border: 2px dashed #e97132;
+  border-radius: 50%;
+}
+.caption-guide {
+  inset: 75% 0 0;
+  border-top: 2px dashed #e97132;
+  background: #e9713222;
+}
+.controls {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, calc(100% - 5px));
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+  padding: .5rem;
+  white-space: nowrap;
+  border-radius: .45rem .45rem 0 0;
+  background: #101c2b;
+}
+.controls:hover, .controls:focus-within { transform: translateX(-50%); }
+body.recording .controls { display: none; }
+button {
+  font: inherit;
+  color: var(--white);
+  background: var(--navy);
+  border: 1px solid #ffffff55;
+  border-radius: .3rem;
+  padding: .35rem .55rem;
+  cursor: pointer;
+}
+button:disabled { opacity: .5; cursor: default; }
+
+.isp-slide h2 {
+  position: absolute;
+  top: 5cqw;
+  left: 5.6cqw;
+  font-size: 3.5cqw;
+  font-weight: 400;
+}
+.isp-menu {
+  position: absolute;
+  top: 35.1%;
+  left: 5.5%;
+  width: 94.5%;
+  height: auto;
+}
+.isp-arrow {
+  position: absolute;
+  top: 42.7%;
+  left: 70%;
+  width: 3.25cqw;
+  height: 11.7cqw;
+  background: #f00;
+  clip-path: polygon(50% 0, 100% 23%, 70% 23%, 70% 100%, 30% 100%, 30% 23%, 0 23%);
+  transform: rotate(29deg);
+}
+
+.memory-curve h2 { font-size: 3.15cqw; }
+.memory-curve img { width: 70cqw; }
+.memory-curve img, .herman-image {
+  display: block;
+  height: auto;
+}
+.herman-image { width: 59cqw; }
+
+.contact-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.contact-cards li {
+  font-size: 1.65cqw;
+  line-height: 1.4;
+}
+.contact-cards ul { padding-inline-start: 1.6cqw; }
+
+.contact-cards {
+  grid-template-columns: 1fr 1.4fr;
+}
+.contact-cards .service-heading { margin-top: .85cqw; }
+.contact-cards li + li { margin-top: .2cqw; }
+
+.module-cards {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}

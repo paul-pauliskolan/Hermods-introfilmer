@@ -1,0 +1,169 @@
+MANUS FÖR INTRODUKTIONSFILMEN
+Webbutveckling nivå 1
+
+
+Bild 1 / 21 – Webbutveckling nivå 1
+
+Välkommen! Har du någon gång undrat hur en webbplats byggs, från första idén till en
+sida som går att öppna på mobilen? I den här kursen får du bygga egna sidor och se
+vad som händer när du ändrar koden. Jag visar vad du behöver för att börja, hur
+arbetet i Omniway är upplagt och var du får hjälp.
+
+Bild 2 / 21 – Videoinställningar
+
+Med CC-knappen, som pilen till vänster pekar på, slår du på undertexterna. Om du
+vill ha mer tid att ta in informationen kan du ändra uppspelningshastigheten med
+reglaget som pilen till höger pekar på. Pausa gärna filmen när du vill hitta samma
+vy i din egen kurs.
+
+Bild 3 / 21 – Ämnesnivåns innehåll och syfte
+
+I exemplet på bilden ser du hur en HTML-rubrik blir synlig på webbsidan. HTML ger
+sidan struktur, CSS formar layouten och JavaScript kan göra delar av sidan
+interaktiva. Du får också se hur webben fungerar bakom kulisserna och hur
+tillgänglighet, säkerhet, lagar och etik påverkar det du bygger. Mot slutet arbetar
+du med bilder och media och provar hur en webbplats kan publiceras.
+
+Bild 4 / 21 – Innehåll
+
+Vi börjar med din individuella studieplan, kursboken och hur kursen är upplagd i
+Omniway. Sedan får du tips på hur du kan lägga upp arbetet och hur Herman kan hjälpa
+dig. Till sist går vi igenom bedömningsmötena, betyget och vem du kontaktar om du
+behöver hjälp.
+
+Bild 5 / 21 – Din individuella studieplan (ISP)
+
+Börja med din individuella studieplan, som förkortas ISP. I det gröna menyfältet på
+Omniways startsida klickar du på Studieplan, där den röda pilen pekar. Svara på
+frågorna där. Det hjälper din lärare att förstå dina mål och vilket stöd som kan
+passa dig. Använd sedan tidsplanen i kursen för att se vilka uppgifter och bokningar
+som närmar sig.
+
+Bild 6 / 21 – Kursbok
+
+I Webbutveckling nivå 1 utgår vi från kursboken ”Webbutveckling Nivå 1”, utgiven av
+Docendo. Om du ännu inte gjort det, är det viktigt att du införskaffar boken så
+snart som möjligt, eftersom hela kursen och alla våra lektioner bygger på detta
+material. På bilden ser du bokens omslag och ISBN. Öppna fliken Litteratur på din
+kurssida i Omniway för att hitta bokinformationen. Kontrollera ISBN när du letar
+efter boken. Enligt kursinformationen finns den hos Docendo, Bokus och Adlibris. Du
+kan också fråga ditt bibliotek om det har boken att låna ut.
+
+Bild 7 / 21 – Verktyg du kommer att använda
+
+I Visual Studio Code, eller VS Code, skriver och redigerar du HTML och CSS. I
+webbläsaren kan du sedan öppna sidan och se vad ändringarna gör. Du behöver skapa
+ett konto på Figma och ett konto på GitHub. I Figma kan du skissa sidans struktur
+och layout innan du bygger. Med GitHub kan du spara projektets filer och publicera
+en webbplats via GitHub Pages. Mer information om kontona och hur du använder
+verktygen finns i kursen.
+
+Bild 8 / 21 – Upplägget i Omniway
+
+I Omniway börjar du med introduktionsuppgiften och arbetar sedan vidare med
+lektionerna. Med öva-uppgifternas flervalsfrågor tränar du på det du nyss har lärt
+dig. Du lämnar också in lärarbedömda uppgifter och får återkoppling. Under kursen
+bokar du också två individuella bedömningsmöten.
+
+Bild 9 / 21 – Kursens fyra moduler
+
+Kursen har fyra moduler. Du börjar med hur webben fungerar och hur du skriver HTML
+och CSS. Sedan arbetar du med layout i flexbox och grid. Därefter kommer
+mobilanpassning, design, testning och enkel JavaScript. I den fjärde modulen arbetar
+du med bilder och media och lär dig hur en webbplats kan publiceras med GitHub
+Pages. Gå via tidsplanen i Omniway och följ den ordning och de datum du ser där.
+
+Bild 10 / 21 – Introduktionsuppgiften
+
+I den första uppgiften får du berätta lite om dig själv, varför du läser kursen och
+hur du tänker lägga upp studierna. Skriv gärna vad du redan kan och vad du vill få
+hjälp med. Då kan läraren lättare stötta dig från början. Öppna
+introduktionsuppgiften i din kurs och kontrollera när den ska lämnas in.
+
+Bild 11 / 21 – Så arbetar du i en lektion
+
+Börja med att läsa syftet och målen så att du vet vad du ska lära dig. Använd
+planeringen och reflektionsfrågorna för att förbereda dig. Gå igenom de centrala
+begreppen och arbeta sedan med lektionens huvudinnehåll. Följ läsanvisningarna och
+gör övningarna i läroboken. Avsluta med att läsa sammanfattningen och fundera på vad
+du har lärt dig och vad du behöver öva mer på.
+
+Bild 12 / 21 – Öva-uppgifter
+
+I slutet av modulerna finns automaträttade öva-uppgifter. Använd dem för att se vad
+du redan kan och vilka delar du behöver gå tillbaka till. Om en fråga känns svår,
+leta upp begreppet i lektionen och prova igen när du har repeterat. Kontrollera
+deadline i tidsplanen.
+
+Bild 13 / 21 – Lärarbedömda uppgifter
+
+Du lämnar in fyra lärarbedömda uppgifter i Omniway, en per modul. Följ
+instruktionerna i uppgiften och kontrollera att rätt fil har laddats upp. Gör
+textbaserade uppgifter till PDF så att text, bilder och formatering visas korrekt.
+Om du lämnar in ett webbprojekt samlar du HTML, CSS, skript och bilder i en mapp och
+packar den som ZIP. Använd lärarens återkoppling när du arbetar vidare.
+
+Bild 14 / 21 – Inlärningsstrategier
+
+Försök göra en liten ändring i taget. Spara, ladda om i webbläsaren och fundera på
+varför resultatet blev som det blev. När du kan förklara ändringen för dig själv är
+det lättare att använda samma idé senare. Om du kör fast, skriv ned vad du testat
+och ta med det till handledningen. Följ bokövningarna i ordning så får du
+återanvända det du redan lärt dig.
+
+Bild 15 / 21 – Inlärningsstrategier – Ebbinghaus glömskekurva
+
+Kurvan illustrerar hur minnet av det du just lärt dig avtar med tiden. Stjärnorna
+markerar exempel på tillfällen då du kan repetera. Prova att förklara med egna ord
+vad en CSS-klass gör efter tio minuter, nästa dag och igen efter en vecka. Återkom
+gärna efter en månad. Diagrammet sträcker sig till sex månader för att visa tanken
+med att komma tillbaka till kunskapen över längre tid.
+
+Bild 16 / 21 – Herman och AI-stöd
+
+Du hittar länken till Herman i början av kursen under Ta hjälp av Herman. Där finns
+en film om hur du loggar in eller skapar ett konto. Herman kan hjälpa dig att förstå
+instruktioner och begrepp och tänka källkritiskt. Du kan också be AI om återkoppling
+på kod du själv skrivit. Testa förslagen, jämför med kursmaterialet och se till att
+du kan förklara det du lämnar in.
+
+Bild 17 / 21 – Bedömningsmöte 1
+
+Det första individuella bedömningsmötet ligger ungefär mitt i kursen. Läs lektionen
+Bedömningsmöten – bokning, regler och genomförande i början av modul 1 och boka en
+tid före deadline i din tidsplan. Logga in några minuter före mötet och välj Anslut
+när knappen visas. Testa kamera och mikrofon i förväg. Mötet ger dig återkoppling
+som hjälper dig att arbeta vidare inför kursens slut.
+
+Bild 18 / 21 – Bedömningsmöte 2
+
+Du bokar själv det andra individuella mötet enligt din tidsplan. Se till att de
+lärarbedömda uppgifterna är inlämnade före mötet. Förbered dig genom att gå igenom
+uppgifter, lektionsanteckningar och återkoppling. Öva på att med egna ord förklara
+hur du har gjort och varför. Vid mötet får du visa dina kunskaper och svara på
+frågor om kursens innehåll.
+
+Bild 19 / 21 – Betyg och bedömning
+
+Läraren gör en sammantagen bedömning av de kunskaper du visar i kursen. Det sista
+bedömningsmötet är särskilt viktigt eftersom du då har haft hela kursen på dig att
+utvecklas. När de obligatoriska momenten är klara hittar du information om ditt
+betyg under Betygsmotivering och ämnesmatris i kursen.
+
+Bild 20 / 21 – Viktiga kontaktvägar
+
+Din lärare kan hjälpa dig att förstå innehållet på din ämnesnivå och svara på frågor
+om uppgifter, bedömningar och betygssättning. Du kan boka in handledningspass. Vid
+frågor om exempelvis förlängning, studieintyg och studievägledning hittar du
+kontaktuppgifter i Hjälpcenter i det gröna menyfältet i Omniway. Där hittar du också
+kontaktvägar om du behöver specialpedagogiskt stöd. Kontakta Hermods
+Studerandeservice om du behöver hjälp att boka ett bedömningsmöte, om det saknas
+bokningsbara tider eller om du har missat mötet. Kontakta dem också om du är
+försenad, vill ändra studietiden, har missat en deadline eller vill sluta en kurs.
+
+Bild 21 / 21 – Lycka till med webbutvecklingen!
+
+Börja med studierna i Omniway, kontrollera att du har rätt lärobok och öppna
+introduktionsuppgiften. När du kodar, ta en liten ändring i taget och se vad som
+händer i webbläsaren. Hör av dig om du fastnar. Lycka till, jag ser fram emot att se
+vad du bygger!
