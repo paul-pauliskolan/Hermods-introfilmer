@@ -39,16 +39,18 @@ se vilka uppgifter och bokningar som närmar sig.
 
 Bild 6 / 21 – Kursmaterial
 
-Du behöver ingen lärobok för Webbutveckling nivå 2. Informationen, genomgångarna och
-materialet du behöver hittar du i ämnesnivån i Omniway. Utgå från länkarna och
-instruktionerna i varje lektion när du arbetar.
+Du behöver varken en lärobok eller några andra inköp för Webbutveckling nivå 2.
+Informationen, genomgångarna och materialet du behöver hittar du i ämnesnivån i
+Omniway. Utgå från länkarna och instruktionerna i varje lektion när du arbetar.
 
 Bild 7 / 21 – Verktyg du kommer att använda
 
 I VS Code skriver och redigerar du HTML, CSS och JavaScript. Du arbetar också med
-versionshantering i Git. Kursens GitHub-sida innehåller kodexempel som du kan ladda
-ned. Använd webbläsarens utvecklarverktyg när du vill undersöka hur sidan fungerar,
-och verktyg som Lighthouse för att granska exempelvis prestanda och tillgänglighet.
+versionshantering i Git. Har du redan ett GitHub-konto från Webbutveckling nivå 1
+kan du använda det. Skapa ett konto om du saknar ett. Kursens GitHub-sida innehåller
+kodexempel som du kan ladda ned. Använd webbläsarens utvecklarverktyg när du vill
+undersöka hur sidan fungerar, och verktyg som Lighthouse för att granska exempelvis
+prestanda och tillgänglighet.
 
 Bild 8 / 21 – Upplägget i Omniway
 
@@ -60,10 +62,11 @@ Bild 9 / 21 – Kursens fyra moduler
 
 Kursen har fyra moduler. I den första fördjupar du dig i HTML och CSS och använder
 JavaScript för interaktivitet. I den andra arbetar du med webben som plattform för
-applikationer och med media, grafik och kvalitetssäkring. I den tredje fördjupar du
-dig i JavaScript, DOM och tillgänglighet. I den fjärde går du igenom webbprojektets
-olika faser och arbetar med säkerhet, lagar och etik. Följ ordningen och datumen i
-tidsplanen i Omniway.
+applikationer och med media och kvalitetssäkring. Du provar också att rita 2D-grafik
+i webbläsaren med Canvas och att skapa enkel 3D-grafik med Three.js. I den tredje
+fördjupar du dig i JavaScript, DOM och tillgänglighet. I den fjärde går du igenom
+webbprojektets olika faser och arbetar med säkerhet, lagar och etik. Följ ordningen
+och datumen i tidsplanen i Omniway.
 
 Bild 10 / 21 – Introduktionsuppgiften
 
