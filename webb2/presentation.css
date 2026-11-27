@@ -53,6 +53,12 @@ h1 { font-size: 5.3cqw; line-height: 1.08; }
 h2 { font-size: 4cqw; line-height: 1.12; }
 p, li { font-size: 2.1cqw; line-height: 1.4; }
 .subtitle { font-size: 2.6cqw; }
+.ai-disclosure {
+  position: absolute;
+  inset-inline: 2.6cqw;
+  bottom: 2.1cqw;
+  font-size: 1.5cqw;
+}
 ul { padding-inline-start: 2.6cqw; }
 li + li { margin-top: .7cqw; }
 .agenda {
